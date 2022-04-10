@@ -62,7 +62,6 @@ async function run() {
 app.get('/',(req,res)=>{
     res.send('Travel Warrior Server is Running ')
 });
-
 app.listen(port,()=>{
     console.log('Running Port',port)
 });
